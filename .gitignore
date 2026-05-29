@@ -1,0 +1,27 @@
+# Environment variables - never commit real keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ChromaDB local storage
+chroma_db/
+
+# Node / React
+node_modules/
+dist/
+build/
+.next/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
